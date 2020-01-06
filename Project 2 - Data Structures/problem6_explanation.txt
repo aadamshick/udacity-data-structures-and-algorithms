@@ -1,0 +1,5 @@
+I leveraged a dictionary for both the union and intersection operators. The dictionary
+is an appropriate data structure because it enforces the uniqueness that is necessary
+for these set operations.  Union and Intersection both run in time complexity O(n),
+where n is the average length of the two lists.  The space complexity is O(n), because
+the keys are only stored in a single dictionary, even for union.

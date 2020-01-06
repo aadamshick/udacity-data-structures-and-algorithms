@@ -1,0 +1,5 @@
+I leveraged a custom block class and a custom blockchain class, that has very
+similar properties to a linked list.  The main function, add_new_block, runs in 
+O(1) time, since it simply appends a new block to the head, and tags the previous
+block in the block class attribute.  The space complexity is O(n), where n is the
+total number of blocks that are created.

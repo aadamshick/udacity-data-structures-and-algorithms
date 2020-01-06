@@ -1,0 +1,3 @@
+This problem runs in O(n) time, because it traverses the list from beginning
+to end, and moves elements around based on their relative position. The space
+complexity is also O(n) because it is an in-place algorithm.

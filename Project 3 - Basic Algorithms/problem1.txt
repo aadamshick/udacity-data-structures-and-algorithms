@@ -1,0 +1,5 @@
+This code treats the range of integers between 0 and n as the set of possible
+solutions and then does a binary search over that range.  Because the range
+is cut in half with each loop, the time complexity is O(log(n)).  The space
+complexity is also O(log(n)) because the recursion stack will have, at most,
+log(n) iterations.  There is no space associated with a data structure.

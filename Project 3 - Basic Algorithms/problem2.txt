@@ -1,0 +1,6 @@
+I implemented two binary search algorithms in this problem. The first binary
+search algorithm was used to find the pivot (where m > m + 1), which returns
+in O(log(n)) time. The second binary search algorithm was used to find the
+value in whatever half of the array was most appropriate, and also returns
+in O(log(n)) time.  The space used is equal to O(log(n)) because of the stack
+when recursing through the array.

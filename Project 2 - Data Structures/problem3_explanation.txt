@@ -1,0 +1,10 @@
+I leveraged a custom binary tree to store the huffman encodings, along with a hash-
+based dictionary to store the letter -> frequency mappings as well as the final
+letter -> binary code mappings.  Encoding the data has a time complexity of O(n) + 
+O(nlog(m)), where n is the length of the input data, and m is the number of distinct
+letters in the input data.  This is becase you have to parse the input data to get
+the frequencies, and then you have you sort and parse the distinct letters to generate
+the binary tree, and then parse the tree again using the BSF algorithm.  Decoding the
+data has a time complexity of O(n), because you parse the binary code and walk through
+the binary tree once.  The space complexity is O(n), because the encoding is ultimately
+stored in an efficient binary tree.

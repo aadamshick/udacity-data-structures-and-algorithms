@@ -1,0 +1,7 @@
+I leveraged a python list (i.e. dynamic array) along with a recursive algorithm
+to search the directory.  The algorithm runs in O(n) time complexity, where n is the
+total number of files and folders in the subdirectory.  It needs to perform an 
+exhaustive search in order to find all instances of the suffix, and this requires
+scanning every file and folder in the subdirectory.  The algorithm runs in O(m) space
+complexity, where m is the maximum of either a) the number of files in the largest
+folder in the subdirectory, or b) the number of files matching the suffix condition.

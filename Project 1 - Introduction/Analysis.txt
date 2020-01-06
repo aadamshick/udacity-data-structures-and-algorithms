@@ -1,0 +1,25 @@
+Task 0:
+
+O(2) - regardless of the size of input, there are only two operations, getting the first and the last record
+
+
+Task 1:
+
+O(4n) - assuming the list of texts and calls are each of length n, then you have to traverse each list
+twice to get the initial list of phone numbers, and then traverse that final list (of worst-case length
+2n) when creating the final set.
+
+Task 2:
+
+O(3n) - you traverse the calls list once to get the phone numbers, and then you traverse the list of phone
+numbers (worst case length 2n) to get the maximum time.
+
+Task 3:
+
+O(nlogn + 2n) - you need to traverse the calls list once (n), then you need to sort the to phone numbers (nlogn),
+and then you need to print out the sorted phone numbers (worst case length n)
+
+Task 4:
+
+O(9n) - you create 4 sets, apply 3 set operations, apply 1 sort operation, and then apply 1 for loop, each
+taking n iterations

@@ -1,0 +1,7 @@
+I leveraged two data structures for the LRU cache, a dictionary to store the cache, and
+a doubly-linked list to store the order of the cache.  I picked a dictionary because it
+allows for easy lookups, and I picked a doubly-linked list because it preserves the order.
+The get and set calls all run in O(1) time, because the underlying operations, dictionary
+key lookup, dictionary key set, linked list append, linked list remove, all run in O(1)
+time.  The space complexity of the data structures is O(n), where n is the size of the
+cache, which is stored once in the dictionary keys and once in the node values.
