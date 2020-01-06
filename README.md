@@ -1,4 +1,4 @@
-# udacity-data-structures-and-algorithms
+# Udacity Data Structures and Algorithms Projects
 
 These projects were submitted by Andrew Adamshick as part of the Data Structures and Algorithms Nanodegree At Udacity.
 
