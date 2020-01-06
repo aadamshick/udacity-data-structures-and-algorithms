@@ -1,5 +1,3 @@
-# Udacity Data Structures and Algorithms Projects
-
 These projects were submitted by Andrew Adamshick as part of the Data Structures and Algorithms Nanodegree At Udacity.
 
 As part of Udacity Honor code, your submissions must be your own work, hence
